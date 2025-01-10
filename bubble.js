@@ -1,6 +1,6 @@
-const array = [7,12,3,28,44,35,85,61];
+import {generateArray} from './randomArray.js'
 
-// bubble sort (just for the sake of it)
+const array = generateArray();
 
 function bubbleSort(arr) {
     for(let i = 0; i < arr.length; i++) {
